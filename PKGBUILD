@@ -1,12 +1,12 @@
 # Maintainer:
 
-pkgname=st-luke-git
+pkgname=st-dixie-git
 _pkgname=st
 pkgver=0.8.2.r1062.2087ab9
 pkgrel=1
 epoch=1
-pkgdesc="Luke's simple (suckless) terminal with vim-bindings, transparency, xresources, etc. "
-url='https://github.com/LukeSmithxyz/st'
+pkgdesc="Simple (suckless) terminal with vim-bindings, transparency, xresources, etc. "
+url='https://github.com/dixiedream/st'
 arch=('i686' 'x86_64')
 license=('MIT')
 options=('zipman')
