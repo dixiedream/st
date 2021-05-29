@@ -9,8 +9,7 @@ features that make it literally the best terminal emulator ever:
 
 ## Bindings for
 
-+ scroll with `alt-↑/↓` or `alt-pageup/down` or `shift` while scrolling the
-  mouse (via [scroll](https://github.com/lukesmithxyz/scroll)).
++ scroll with `alt-↑/↓` or `alt-pageup/down`
 + OR **vim-bindings**: scroll up/down in history with `alt-k` and `alt-j`.
   Faster with `alt-u`/`alt-d`.
 + **zoom/change font size**: same bindings as above, but holding down shift as
