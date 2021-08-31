@@ -41,11 +41,8 @@ cd st
 sudo make install
 ```
 
-Note that [scroll](https://github.com/lukesmithxyz/scroll) is automatically
-pulled and installed when you make this build of st.
-
 Obviously, `make` is required to build. `fontconfig` is required for the
-default build, since it asks `fontconfig` for your system monospace font.  It
+default build, since it asks `fontconfig` for your system monospace font. It
 might be obvious, but `libX11` and `libXft` are required as well. Chances are,
 you have all of this installed already.
 
