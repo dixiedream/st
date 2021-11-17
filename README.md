@@ -9,8 +9,7 @@ features that make it literally the best terminal emulator ever:
 
 ## Bindings for
 
-+ scroll with `alt-↑/↓` or `alt-pageup/down` or `shift` while scrolling the
-  mouse (via [scroll](https://github.com/lukesmithxyz/scroll)).
++ scroll with `alt-↑/↓` or `alt-pageup/down`
 + OR **vim-bindings**: scroll up/down in history with `alt-k` and `alt-j`.
   Faster with `alt-u`/`alt-d`.
 + **zoom/change font size**: same bindings as above, but holding down shift as
@@ -42,6 +41,17 @@ git clone https://github.com/dixiedream/st
 cd st
 sudo make install
 ```
+
+Obviously, `make` is required to build. `fontconfig` is required for the
+default build, since it asks `fontconfig` for your system monospace font. It
+might be obvious, but `libX11` and `libXft` are required as well. Chances are,
+you have all of this installed already.
+
+On OpenBSD, be sure to edit `config.mk` first and remove `-lrt` from the
+`$LIBS` before compiling.
+
+Be sure to have a composite manager (`xcompmgr`, `picom`, etc.) running if you
+want transparency.
 
 ## How to configure dynamically with Xresources
 
