@@ -19,7 +19,7 @@ features that make it literally the best terminal emulator ever:
 
 ## Pretty stuff
 
-+ Compatibility with `Xresources` and `pywal` for dynamic colors.
++ Compatibility with `Xresources`.
 + Default [gruvbox](https://github.com/morhetz/gruvbox) colors otherwise.
 + Transparency/alpha, which is also adjustable from your `Xresources`.
 + Default font is system "mono" at 14pt, meaning the font will match your
@@ -27,34 +27,21 @@ features that make it literally the best terminal emulator ever:
 
 ## Other st patches
 
++ anygeometry
 + Boxdraw
 + Ligatures
 + font2
 + updated to latest version 0.8.4
 
-## Installation for newbs
+## Installation
 
 You should have xlib header files and libharfbuzz build files installed.
 
 ```
-git clone https://github.com/LukeSmithxyz/st
+git clone https://github.com/dixiedream/st
 cd st
 sudo make install
 ```
-
-Note that [scroll](https://github.com/lukesmithxyz/scroll) is automatically
-pulled and installed when you make this build of st.
-
-Obviously, `make` is required to build. `fontconfig` is required for the
-default build, since it asks `fontconfig` for your system monospace font.  It
-might be obvious, but `libX11` and `libXft` are required as well. Chances are,
-you have all of this installed already.
-
-On OpenBSD, be sure to edit `config.mk` first and remove `-lrt` from the
-`$LIBS` before compiling.
-
-Be sure to have a composite manager (`xcompmgr`, `picom`, etc.) running if you
-want transparency.
 
 ## How to configure dynamically with Xresources
 
@@ -80,9 +67,6 @@ To be clear about the color settings:
 
 - This build will use gruvbox colors by default and as a fallback.
 - If there are Xresources colors defined, those will take priority.
-- But if `wal` has run in your session, its colors will take priority.
-
-Note that when you run `wal`, it will negate the transparency of existing windows, but new windows will continue with the previously defined transparency.
 
 ## Notes on Emojis and Special Characters
 
