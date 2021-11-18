@@ -19,7 +19,7 @@ features that make it literally the best terminal emulator ever:
 ## Pretty stuff
 
 + Compatibility with `Xresources` 
-+ Default [gruvbox](https://github.com/morhetz/gruvbox) colors otherwise.
++ Default [NordTheme](https://nordtheme.com) colors otherwise.
 + Transparency/alpha, which is also adjustable from your `Xresources`.
 + Default font is system "mono" at 14pt, meaning the font will match your
   system font.
@@ -75,7 +75,7 @@ The `alpha` value (for transparency) goes from `0` (transparent) to `1`
 
 To be clear about the color settings:
 
-- This build will use gruvbox colors by default and as a fallback.
+- This build will use NordTheme colors by default and as a fallback.
 - If there are Xresources colors defined, those will take priority.
 
 ## Notes on Emojis and Special Characters
