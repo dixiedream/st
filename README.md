@@ -26,6 +26,7 @@ features that make it literally the best terminal emulator ever:
 
 ## Other st patches
 
++ anysize
 + Boxdraw
 + Ligatures
 + font2
