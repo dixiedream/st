@@ -15,6 +15,7 @@ features that make it literally the best terminal emulator ever:
 + **zoom/change font size**: same bindings as above, but holding down shift as
   well. `alt-home` returns to default
 + **copy text** with `alt-c`, **paste** is `alt-v` or `shift-insert`
++ **open new terminal** with `ctrl-shift-return`
 
 ## Pretty stuff
 
@@ -30,6 +31,7 @@ features that make it literally the best terminal emulator ever:
 + Boxdraw
 + Ligatures
 + font2
++ newTerm
 + updated to latest version 0.8.4
 
 ## Installation 
