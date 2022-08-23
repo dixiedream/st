@@ -13,7 +13,7 @@ options=('zipman')
 depends=('libxft')
 makedepends=('ncurses' 'libxext' 'git')
 optdepends=('dmenu: feed urls to dmenu')
-source=('git://github.com/dixiedream/st')
+source=('git+https://github.com/dixiedream/st')
 sha1sums=('SKIP')
 
 provides=("${_pkgname}")

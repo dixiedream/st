@@ -113,22 +113,22 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    "#3b4252", 
-	"#bf616a", 
-	"#a3be8c", 
-	"#ebcb8b", 
-	"#81a1c1", 
-	"#b48ead", 
-	"#88c0d0", 
-	"#e5e9f0", 
-	"#4c566a", 
-	"#bf616a", 
-	"#a3be8c", 
-	"#ebcb8b", 
-	"#81a1c1", 
-	"#b48ead", 
-	"#8fbcbb", 
-	"#eceff4", 
+    "#3b4252",
+	"#bf616a",
+	"#a3be8c",
+	"#ebcb8b",
+	"#81a1c1",
+	"#b48ead",
+	"#88c0d0",
+	"#e5e9f0",
+	"#4c566a",
+	"#bf616a",
+	"#a3be8c",
+	"#ebcb8b",
+	"#81a1c1",
+	"#b48ead",
+	"#8fbcbb",
+	"#eceff4",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
@@ -243,7 +243,6 @@ static MouseShortcut mshortcuts[] = {
 #define CTRLSHIFT (ControlMask|ShiftMask)
 
 static char *copyoutput[] = { "/bin/sh", "-c", "st-copyout", "externalpipe", NULL };
-
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
@@ -552,3 +551,4 @@ static char ascii_printable[] =
 	" !\"#$%&'()*+,-./0123456789:;<=>?"
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
 	"`abcdefghijklmnopqrstuvwxyz{|}~";
+

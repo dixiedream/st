@@ -19,7 +19,7 @@ features that make it literally the best terminal emulator ever:
 
 ## Pretty stuff
 
-+ Compatibility with `Xresources` 
++ Compatibility with `Xresources`
 + Default [NordTheme](https://nordtheme.com) colors otherwise.
 + Transparency/alpha, which is also adjustable from your `Xresources`.
 + Default font is system "mono" at 14pt, meaning the font will match your
@@ -28,13 +28,14 @@ features that make it literally the best terminal emulator ever:
 ## Other st patches
 
 + anysize
++ BoldIsNotBright
 + Boxdraw
 + Ligatures
 + font2
 + newTerm
-+ updated to latest version 0.8.4
++ updated to latest version 0.8.5
 
-## Installation 
+## Installation
 
 You should have xlib header files and libharfbuzz build files installed.
 
